@@ -1,0 +1,15 @@
+name: Core
+main: velt\core\Main
+version: 1.0
+api: [5.11.2]
+author: me
+permissions:
+  velt.staff:
+    description: "Allows toggling staff mode."
+    default: op
+  velt.bypass:
+    description: "Allows the use of bypass command."
+    default: op
+  velt.changeworld:
+    description: "Change the world."
+    default: op
